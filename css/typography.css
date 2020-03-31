@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Playfair+Display&display=swap");
+
+html {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Comfortaa", cursive;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.25em;
+}
+
+h1, h2 {
+    color: #262d47;
+}
+
+h3 {
+    color: #86a9cd
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: "Comfortaa", cursive;
+  font-weight: 600;
+  color: slateblue;
+  background: rgba(255,255,255,0);
+  border: 1px solid slateblue;
+  padding: 1rem;
+  display: inline-block;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.btn:hover {
+  background: slateblue;
+  color: #f5f4f2;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f5f4f2;
+  margin-left: 1rem;
+}
+
+label {
+}
+
+.has-text-centered {
+  text-align: center;
+}

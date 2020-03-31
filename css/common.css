@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #6a5acd;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f5f4f2;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    margin: 0 1rem;
+    color: #f5f4f2;
+}
+
+.padded {
+    padding: 0 2rem;
+}
