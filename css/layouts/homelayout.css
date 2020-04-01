@@ -7,8 +7,7 @@
     "header"
     "spotlight"
     "recent"
-    "subscribe"
-    "social"
+    "sharing"
     "footer";
   width: 100%;
 }
@@ -31,15 +30,14 @@
 }
 
 .recent-grid {
+  max-width: 1600px;
+  margin: 0 auto;
   display: grid;
   grid-gap: 10px;
 }
 
-.subscribe {
-  grid-area: subscribe;
-}
 
-.subscribe .card {
+.subscribe {
   justify-content: space-evenly;
 }
 
@@ -50,8 +48,15 @@
     justify-content: center;
 }
 
-.social {
-    grid-area: social;
+.sharing {
+    grid-area: sharing;
+}
+
+.sharing-grid{
+  display: grid;
+  grid-gap: 10px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .social .card-content {
@@ -69,14 +74,9 @@
 }
 
 @media (min-width: 901px) {
-  .container {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:
-      "header header header header"
-      "spotlight spotlight spotlight spotlight"
-      "recent recent recent recent"
-      "subscribe subscribe social social"
-      "footer footer footer footer";
+  .sharing-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
   }
 
   .recent-grid {
