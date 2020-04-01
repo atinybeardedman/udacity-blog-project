@@ -3,6 +3,8 @@
 @import url('components/card.css');
 @import url('common.css');
 
+
+
 #post-1 .card-img {
     background-image: url('http://placekitten.com/800/300');
 }
@@ -19,31 +21,38 @@
     background-image: url('http://placekitten.com/800/300');
 }
 
-.spotlight-post {
-    height: 100%;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.spotlight-card {
-    height: 50%;
-    width: 80%;
-    padding: 2rem;
-    background: rgba(255,255,255,0.5);
-    /* color: white; */
-    display: flex;
-    flex-direction: column;
+
+.spotlight .card-img {
+    background-image: url('http://placekitten.com/800/300');
+    height:20rem;
 }
 
 .section-title{
     width:100%;
 }
 
-.subscribe-form {
+
+.subscribe-form input {
+    border: 1px solid #f5f4f2;
+    padding: 0 1rem;
+}
+
+.social .btn {
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    width: 80%;
+}
+
+
+@media (min-width: 901px) {
+    .spotlight .card {
+        max-width: 800px;
+    }
+
+    .social .btn {
+        width: 60%;
+        max-width: 400px;
+    }
 }

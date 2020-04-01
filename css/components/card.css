@@ -1,9 +1,10 @@
 .card {
-    border: 4px solid lightgrey;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) ;
     margin: 1rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    min-height: 20rem;
 }
 
 .card-img {
@@ -11,4 +12,10 @@
     height: 12rem;
     background-position: center center;
     background-size: cover;
+}
+
+@media (min-width: 901px) {
+    .card {
+        min-height: 25rem;
+    }
 }

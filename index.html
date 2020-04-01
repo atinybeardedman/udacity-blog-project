@@ -6,36 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Cool Blog</title>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+
 </head>
 
 <body>
-    <div class="container">
+    <div class="container has-background-light">
         <header class="header">
-            <nav class="navbar">
+            <nav class="navbar has-background-primary has-text-light">
                 <a href="#" class="logo">Logo</a>
                 <div class="links">
-                    <a href="">Subscribe</a>
-                    <a href="">Login</a>
+                    <a href="#subscribe">Subscribe</a>
+                    <a href="#">Login</a>
                 </div>
             </nav>
         </header>
-        <section class="spotlight">
-            <article class="spotlight-post">
-                <div class="spotlight-card">
-                    <h2>Title Here</h2>
-                    <h3>Date and Author</h3>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, aperiam asperiores suscipit
-                            libero sint quasi! Officiis aliquam, quod quo voluptas dolores cum quidem fuga architecto
-                            provident facilis, eaque laborum ducimus?
-                        </p>
+        <section class="spotlight has-background-dark">
+            <h1 class="section-title has-text-centered has-text-light">Featured Post</h1>
+            <article class="card has-background-light">
+                <div class="card-img"></div>
+                <h2 class="card-title">Title Here</h2>
+                <h3 class="card-meta">Date and Author</h3>
+                <div class="card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, aperiam asperiores suscipit
+                        libero sint quasi! Officiis aliquam, quod quo voluptas dolores cum quidem fuga architecto
+                        provident facilis, eaque laborum ducimus?
+                    </p>
+                </div>
+                <div class="card-actions">
+                    <div class="card-actions">
+                        <a class="btn" href="posts/post-1.html">Read More</a>
                     </div>
                 </div>
             </article>
         </section>
-        <section class="recent-posts padded">
-            <h1 class="section-title">Recent Posts</h1>
+        <section class="recent-posts padded has-background-light">
+            <h1 class="section-title has-text-centered">Recent Posts</h1>
             <article class="card" id="post-1">
                 <div class="card-img"></div>
                 <h2 class="card-title">Title Here</h2>
@@ -101,20 +108,46 @@
                 </div>
             </article>
         </section>
-        <section class="subscribe has-text-centered padded">
-            <h1 class="section-title">Subscribe</h1>
-            <form class="subscribe-form">
-                <input id="email" type="email" placeholder="someone@example.com">
-                <button class="btn">Sign Up</button>
-            </form>
+        <section class="subscribe padded" id="subscribe">
+            <div class="card has-background-dark-accent">
+                <h1 class="card-title has-text-centered has-text-light">Subscribe</h1>
+                <div class="card-content">
+                    <form class="subscribe-form">
+                        <input id="email" type="email" placeholder="someone@example.com" class="has-background-light">
+                        <button class="btn has-background-dark-accent has-text-light">Sign Up</button>
+                    </form>
+                </div>
+
+            </div>
         </section>
-        <section class="social has-text-centered padded">
-            <h1 class="section-title">Share</h1>
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
-            <a href="">Twitter</a>
+        <section class="social padded">
+            <div class="card has-background-light-accent">
+                <h1 class="card-title has-text-centered has-text-light">Share</h1>
+                <div class="card-content">
+                    <a class="btn has-text-light has-background-light-accent" href="">
+                        <span>
+                            Facebook
+                        </span>
+                        <i class="socicon-facebook"></i>
+                    </a>
+                    <a class="btn has-text-light has-background-light-accent" href="">
+                        <span>
+                            Instagram     
+                        </span>
+                        <i class="socicon-instagram"></i>
+                    </a>
+                    <a class="btn has-text-light has-background-light-accent" href="">
+                        <span>
+                            Twitter    
+                        </span>
+                        <i class="socicon-twitter"></i>
+                    </a>
+                </div>
+            </div>
         </section>
-        <footer class="footer"></footer>
+        <footer class="footer has-text-light has-background-dark">
+            <small>&copy; 2020 Sean Dickinson</small>
+        </footer>
     </div>
 </body>
 

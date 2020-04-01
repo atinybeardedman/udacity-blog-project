@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Playfair+Display&display=swap");
-
 html {
   font-size: 14px;
 }
 
+/* Heading styles */
 h1,
 h2,
 h3,
@@ -57,6 +57,8 @@ p {
   font-family: "Playfair Display", serif;
 }
 
+/* Link and Button Styling */
+
 a {
   text-decoration: none;
 }
@@ -72,9 +74,25 @@ a {
   transition: color 0.5s, background-color 0.5s;
 }
 
+.btn.has-text-light {
+  border: 1px solid #f5f4f2;
+  color: #f5f4f2;
+}
+
+.btn.has-background-dark-accent:hover{
+  background: #f5f4f2;
+  color:#6b73c1;
+}
+
+.btn.has-background-light-accent:hover {
+  background: #f5f4f2;
+  color:#86a9c0;
+}
+
 .btn:hover {
   background: slateblue;
   color: #f5f4f2;
+  cursor: pointer;
 }
 
 .logo {
@@ -84,8 +102,8 @@ a {
   margin-left: 1rem;
 }
 
-label {
-}
+
+/* Alignment Helpers */
 
 .has-text-centered {
   text-align: center;
