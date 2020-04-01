@@ -14,18 +14,25 @@ body {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
+  line-height: 80px;
 }
 
 .links {
   display: flex;
+  align-items: center;
 }
 
 .links a {
-  margin: 0 1rem;
+  padding: 0 1rem;
   color: #f5f4f2;
   font-size: 1.2rem;
   font-family: 'Lato', sans-serif;
+  transition: background-color 0.5s;
+}
+
+.links a:hover {
+    background-color: rgba(255,255,255,0.3)
 }
 
 /* Color helpers */
