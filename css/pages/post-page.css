@@ -1,5 +1,5 @@
-@import url("typography.css");
-@import url("layouts/post-page-layout.css");
-@import url("components/card.css");
-@import url("components/post.css");
-@import url("common.css")
+@import url("../typography.css");
+@import url("../layouts/post-page-layout.css");
+@import url("../components/card.css");
+@import url("../components/post.css");
+@import url("../common.css")

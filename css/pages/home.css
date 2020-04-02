@@ -1,7 +1,7 @@
-@import url("typography.css");
-@import url("layouts/home-layout.css");
-@import url("components/card.css");
-@import url("common.css");
+@import url("../typography.css");
+@import url("../layouts/home-layout.css");
+@import url("../components/card.css");
+@import url("../common.css");
 
 
 
