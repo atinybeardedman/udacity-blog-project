@@ -1,3 +1,4 @@
+/* Grid set up */
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -22,16 +23,23 @@
 }
 
 /* author card styles */
-
-
 .avatar {
-  flex-shrink: 0;
-  width: 7.5rem;
-  height: 7.5rem;
-  border-radius: 3.75rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
   background-size: cover;
   background-position: center center;
   background-image: url("https://placekitten.com/100/100");
+}
+
+.author-info {
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  width: 100%;
+}
+
+.author-name-container {
+  padding: 0 2rem;
 }
 
 .share {
@@ -44,4 +52,25 @@
   width: 3em;
   height: 3em;
   text-align: center;
+}
+
+.author-social{
+  text-align: center;
+}
+
+@media (min-width: 901px) {
+  .about-author {
+    flex-direction: row !important;
+  }
+
+  .author-info {
+    flex-direction: column;
+    flex-shrink: 0;
+    width: auto;
+  }
+
+  .author-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }

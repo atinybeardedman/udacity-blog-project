@@ -1,3 +1,4 @@
+/* Grid set up */
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -10,7 +11,7 @@
   width: 100%;
 }
 
-
+/* Sub-sections set up*/
 .spotlight {
   grid-area: spotlight;
 }
@@ -26,16 +27,8 @@
   grid-gap: 10px;
 }
 
-
 .subscribe {
   justify-content: space-evenly;
-}
-
-.subscribe-form {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: center;
 }
 
 .sharing {
@@ -49,12 +42,7 @@
   margin: 0 auto;
 }
 
-.social .card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* Tablet/Small computer styling */
 
 @media (min-width: 901px) {
   .sharing-grid {
@@ -66,18 +54,12 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
-
-
-
 }
 
-
+/* Larger desktop styling */
 @media (min-width: 1600px) {
-
 
   .recent-grid{
     grid-template-columns: repeat(3, 1fr);
   }
-
-
 }
