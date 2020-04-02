@@ -87,7 +87,7 @@ a {
 }
 
 .btn:hover {
-  background: slateblue;
+  background: #6b73c1;
   color: #f5f4f2;
   cursor: pointer;
 }
@@ -100,7 +100,13 @@ a {
 }
 
 .author-link {
-  color: slateblue;
+  color: #6b73c1;
+  transition: border-bottom-color 0.5s;
+  border-bottom: 1px solid rgba(255,255,255,0);
+}
+
+.author-link:hover {
+  border-bottom-color: #6b73c1;
 }
 
 
