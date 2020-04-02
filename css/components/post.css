@@ -19,6 +19,11 @@
 .post-img img {
   max-width: 100%;
   height: auto;
+  transition: opacity 0.3s;
+}
+
+.post-img img:hover {
+  opacity: 0.8;
 }
 
 .author-link {
