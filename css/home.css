@@ -1,32 +1,10 @@
 @import url('typography.css');
-@import url('layouts/homelayout.css');
+@import url('layouts/home-layout.css');
 @import url('components/card.css');
 @import url('common.css');
 
 
 
-#post-1 .card-img {
-    background-image: url('http://placekitten.com/800/300');
-}
-
-#post-2 .card-img {
-    background-image: url('http://placekitten.com/800/300');
-}
-
-#post-3 .card-img {
-    background-image: url('http://placekitten.com/800/300');
-}
-
-#post-4 .card-img {
-    background-image: url('http://placekitten.com/800/300');
-}
-
-
-
-.spotlight .card-img {
-    background-image: url('http://placekitten.com/800/300');
-    height:20rem;
-}
 
 .section-title{
     width:100%;

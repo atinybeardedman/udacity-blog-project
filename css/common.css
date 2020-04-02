@@ -8,33 +8,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Navbar specific styles */
-
-.navbar {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  line-height: 80px;
-}
-
-.links {
-  display: flex;
-  align-items: center;
-}
-
-.links a {
-  padding: 0 1rem;
-  color: #f5f4f2;
-  font-size: 1.2rem;
-  font-family: 'Lato', sans-serif;
-  transition: background-color 0.5s;
-}
-
-.links a:hover {
-    background-color: rgba(255,255,255,0.3)
-}
-
 /* Color helpers */
 
 .has-background-light {
@@ -81,4 +54,84 @@ body {
 
 .padded {
   padding: 0 2rem;
+}
+
+/* display helpers */
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-start {
+  justify-content: flex-start;
+}
+
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-stretch{
+  align-items: stretch;
+}
+
+/* Header and Footer for all pages */
+
+.navbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  line-height: 80px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  padding: 0 1rem;
+  color: #f5f4f2;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  transition: background-color 0.5s;
+}
+
+.links a:hover {
+    background-color: rgba(255,255,255,0.3)
+}
+
+.header {
+  height: 80px;
+  position: sticky;
+  top:0;
+}
+
+.footer {
+  grid-area: footer;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: stretch;
 }

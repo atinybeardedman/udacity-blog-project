@@ -1,10 +1,8 @@
 .container {
   display: grid;
-  justify-content: center;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "header"
     "spotlight"
     "recent"
     "sharing"
@@ -12,17 +10,9 @@
   width: 100%;
 }
 
-.header {
-  grid-area: header;
-  height: 80px;
-}
 
 .spotlight {
   grid-area: spotlight;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .recent-posts {
@@ -65,13 +55,6 @@
   align-items: center;
 }
 
-.footer {
-  grid-area: footer;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 @media (min-width: 901px) {
   .sharing-grid {

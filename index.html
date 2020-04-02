@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Cool Blog</title>
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
 
 </head>
 
 <body>
+    <header class="header">
+        <nav class="navbar has-background-primary has-text-light">
+            <a href="index.html" class="logo">Logo</a>
+            <div class="links">
+                <a href="#subscribe">Subscribe</a>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+    </header>
     <div class="container has-background-light">
-        <header class="header">
-            <nav class="navbar has-background-primary has-text-light">
-                <a href="#" class="logo">Logo</a>
-                <div class="links">
-                    <a href="#subscribe">Subscribe</a>
-                    <a href="#">Login</a>
-                </div>
-            </nav>
-        </header>
-        <section class="spotlight has-background-dark">
+        <section class="spotlight flex flex-wrap flex-justify-center flex-align-center has-background-dark">
             <h1 class="section-title has-text-centered has-text-light">Featured Post</h1>
             <article class="card has-background-light">
-                <div class="card-img"></div>
+                <div class="card-img">
+                    <img src="http://placekitten.com/1000/500">
+                </div>
                 <h2 class="card-title">Title Here</h2>
                 <h3 class="card-meta">Date and Author</h3>
                 <div class="card-content">
@@ -45,7 +46,9 @@
             <h1 class="section-title has-text-centered">Recent Posts</h1>
             <div class="recent-grid">
                 <article class="card" id="post-1">
-                    <div class="card-img"></div>
+                    <div class="card-img">
+                        <img src="http://placekitten.com/1000/500">
+                    </div>
                     <h2 class="card-title">Title Here</h2>
                     <h3 class="card-meta">Date and Author</h3>
                     <div class="card-content">
@@ -58,11 +61,13 @@
                         </p>
                     </div>
                     <div class="card-actions">
-                        <a class="btn" href="posts/post-1.html">Read More</a>
+                        <a class="btn" href="posts/post-2.html">Read More</a>
                     </div>
                 </article>
                 <article class="card" id="post-2">
-                    <div class="card-img"></div>
+                    <div class="card-img">
+                        <img src="http://placekitten.com/1000/500">
+                    </div>
                     <h2 class="card-title">Title Here</h2>
                     <h3 class="card-meta">Date and Author</h3>
                     <div class="card-content">
@@ -75,11 +80,13 @@
                         </p>
                     </div>
                     <div class="card-actions">
-                        <a class="btn" href="posts/post-1.html">Read More</a>
+                        <a class="btn" href="posts/post-3.html">Read More</a>
                     </div>
                 </article>
                 <article class="card" id="post-3">
-                    <div class="card-img"></div>
+                    <div class="card-img">
+                        <img src="http://placekitten.com/1000/500">
+                    </div>
                     <h2 class="card-title">Title Here</h2>
                     <h3 class="card-meta">Date and Author</h3>
                     <div class="card-content">
@@ -92,12 +99,14 @@
                         </p>
                     </div>
                     <div class="card-actions">
-                        <a class="btn" href="posts/post-1.html">Read More</a>
+                        <a class="btn" href="posts/post-4.html">Read More</a>
                     </div>
                 </article>
                 <article class="card" id="post-4">
-                    <div class="card-img"></div>
-                    <h1 class="card-title">Title Here</h1>
+                    <div class="card-img">
+                        <img src="http://placekitten.com/1000/500">
+                    </div>
+                    <h2 class="card-title">Title Here</h2>
                     <h3 class="card-meta">Date and Author</h3>
                     <div class="card-content">
                         <p>
@@ -118,7 +127,7 @@
         <section class="sharing padded">
             <div class="sharing-grid">
 
-                <div class="card subscribe has-background-dark-accent">
+                <div class="card subscribe has-background-dark-accent" id="subscribe">
                     <h1 class="card-title has-text-centered has-text-light">Subscribe</h1>
                     <div class="card-content">
                         <form class="subscribe-form">
@@ -143,9 +152,9 @@
                         </a>
                         <a class="btn has-text-light has-background-light-accent" href="">
                             <span>
-                                Instagram
+                                LinkedIn
                             </span>
-                            <i class="socicon-instagram"></i>
+                            <i class="socicon-linkedin"></i>
                         </a>
                         <a class="btn has-text-light has-background-light-accent" href="">
                             <span>
