@@ -54,6 +54,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
+    .card {
+        min-height: 25rem;
+    }
 }
 
 /* Larger desktop styling */

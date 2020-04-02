@@ -69,6 +69,10 @@
     width: auto;
   }
 
+  .author-social{
+    text-align: left;
+  }
+
   .author-content {
     padding-top: 2rem;
     padding-bottom: 2rem;
