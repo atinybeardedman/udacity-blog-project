@@ -11,6 +11,7 @@
   width: 100%;
 }
 
+
 /* Sub-sections set up*/
 .spotlight {
   grid-area: spotlight;
@@ -42,8 +43,8 @@
   margin: 0 auto;
 }
 
-/* Tablet/Small computer styling */
 
+/* Tablet/Small computer styling */
 @media (min-width: 901px) {
   .sharing-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -59,9 +60,9 @@
     }
 }
 
+
 /* Larger desktop styling */
 @media (min-width: 1600px) {
-
   .recent-grid{
     grid-template-columns: repeat(3, 1fr);
   }

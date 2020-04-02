@@ -1,8 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap");
-@import url("https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh");
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap);
+@import url(https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh);
+
+
+/* Root element font size */
 html {
   font-size: 14px;
 }
+
+
 
 /* Heading styles */
 h1,
@@ -13,17 +18,18 @@ h5,
 h6 {
   margin-block-start: 0.5em;
   margin-block-end: 0.25em;
-  font-weight:400;
+  font-weight: 400;
 }
 
-h1, h2 {
-    color: #262d47;
-    font-family: "Bebas Neue", cursive;
+h1,
+h2 {
+  color: #262d47;
+  font-family: "Bebas Neue", cursive;
 }
 
 h3 {
-    color: #86a9cd;
-    font-family: "Bebas Neue", cursive;
+  color: #86a9cd;
+  font-family: "Bebas Neue", cursive;
 }
 
 h1 {
@@ -38,12 +44,13 @@ h3 {
   font-size: 1.5rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-family: "Lato", sans-serif;
 }
 
 h4 {
-  
   font-size: 1.25rem;
 }
 
@@ -55,7 +62,10 @@ h6 {
   font-size: 0.8rem;
 }
 
-p, span {
+
+/* Other text element styles */
+p,
+span {
   font-family: "Lato", sans-serif;
 }
 
@@ -64,12 +74,13 @@ blockquote {
   font-size: 2rem;
   text-align: center;
 }
-blockquote::before, blockquote::after {
-  content: "\""
+blockquote::before,
+blockquote::after {
+  content: '"';
 }
 
-/* Link and Button Styling */
 
+/* Link and Button Styling */
 a {
   text-decoration: none;
 }
@@ -77,7 +88,7 @@ a {
 .btn {
   font-family: "Bebas Neue", cursive;
   color: slateblue;
-  background: rgba(255,255,255,0);
+  background: rgba(255, 255, 255, 0);
   border: 1px solid slateblue;
   padding: 1rem;
   display: inline-block;
@@ -90,15 +101,15 @@ a {
   color: #f5f4f2;
 }
 
-.btn.has-background-dark-accent:hover{
+.btn.has-background-dark-accent:hover {
   background: #f5f4f2;
-  color:#6b73c1;
+  color: #6b73c1;
   border-left-color: #6b73c1;
 }
 
 .btn.has-background-light-accent:hover {
   background: #f5f4f2;
-  color:#86a9c0;
+  color: #86a9c0;
 }
 
 .btn:hover {
@@ -107,26 +118,8 @@ a {
   cursor: pointer;
 }
 
-.logo {
-  font-size: 2rem;
-  font-family: "Bebas Neue", cursive;
-  color: #f5f4f2;
-  margin-left: 1rem;
-}
 
-.author-link {
-  color: #6b73c1;
-  transition: border-bottom-color 0.5s;
-  border-bottom: 1px solid rgba(255,255,255,0);
-}
-
-.author-link:hover {
-  border-bottom-color: #6b73c1;
-}
-
-
-/* Alignment Helpers */
-
+/* Alignment Helper */
 .has-text-centered {
   text-align: center;
 }

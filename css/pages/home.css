@@ -1,36 +1,31 @@
-@import url("../typography.css");
-@import url("../layouts/home-layout.css");
-@import url("../components/card.css");
-@import url("../common.css");
+@import url(../typography.css);
+@import url(../layouts/home-layout.css);
+@import url(../components/card.css);
+@import url(../common.css);
 
-
-
-
-.section-title{
-    width:100%;
+.section-title {
+  width: 100%;
 }
 
-
 .subscribe-form input {
-    border: 1px solid #f5f4f2;
-    padding: 0 1rem;
+  border: 1px solid #f5f4f2;
+  padding: 0 1rem;
 }
 
 .social .btn {
-    display: flex;
-    justify-content: space-between;
-    margin: 0.5rem 0;
-    width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  width: 80%;
 }
 
-
 @media (min-width: 901px) {
-    .spotlight .card {
-        max-width: 800px;
-    }
+  .spotlight .card {
+    max-width: 800px;
+  }
 
-    .social .btn {
-        width: 60%;
-        max-width: 400px;
-    }
+  .social .btn {
+    width: 60%;
+    max-width: 400px;
+  }
 }
