@@ -52,8 +52,24 @@ body {
 
 /* Margin, padding classes */
 
-.padded {
-  padding: 0 2rem;
+.p-x {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.p-y {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.m-x {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.m-y {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* display helpers */
