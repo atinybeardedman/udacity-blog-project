@@ -1,47 +1,47 @@
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
     "post"
     "author"
     "footer";
-    width:100%;
-    grid-gap: 10px;
-    justify-items: center;
+  width: 100%;
+  grid-gap: 10px;
+  justify-items: center;
 }
 
 .post {
-    grid-area: post;
-    max-width: 1200px;
+  grid-area: post;
+  max-width: 1200px;
 }
 
 .about-author {
-    grid-area: author;
-    max-width: 1200px;
+  grid-area: author;
+  max-width: 1200px;
 }
-
 
 /* author card styles */
 
-.author-content{
-    padding: 1rem;
+.author-content {
+  padding: 1rem;
 }
 
-.avatar{
-    flex-shrink: 0;
-    width: 7.5rem;
-    height: 7.5rem;
-    border-radius: 3.75rem;
-    background-size: cover;
-    background-position: center center;
-    background-image: url('http://placekitten.com/100/100');
+.avatar {
+  flex-shrink: 0;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 3.75rem;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("https://placekitten.com/100/100");
 }
 
 .share {
-    width: 100%;
+  width: 100%;
 }
 
-.social a, .author-social a {
-    margin: 0 0.5rem;
+.social a,
+.author-social a {
+  margin: 0 0.5rem;
 }
